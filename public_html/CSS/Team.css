@@ -1,0 +1,76 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 15 nov. 2023, 11:21:42
+    Author     : hp789
+*/
+
+h1{
+    margin: 0 auto 0 auto;
+    color: black;
+    clear: both;
+}
+
+#reco, #teammap, #twitter, #twitter-widget-0{
+    width: 950px;
+    margin: 0 auto 0 auto;
+}
+
+#teammap{
+    display: block;
+    height: 633px;
+    background: url(../images/nolark_team.jpg) no-repeat;
+    position: relative;
+    margin: 2px auto 2px auto;
+}
+
+#teammap li{
+    list-style-type: none;
+}
+
+#teammap li a{
+    background: transparent;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 165px;
+    padding-top: 245px;
+}
+
+#membre1 {left: 60px; top: 85px;}
+#membre2 {left: 220px; top: 80px;}
+#membre3 {left: 405px; top: 10px;}
+#membre4 {left: 585px; top: 50px;}
+#membre5 {left: 720px; top: 111px;}
+
+#teammap li a:hover{
+    border: 1px dashed black;
+}
+
+#teammap li a:hover .homme {background-color: red}
+#teammap li a:hover .femme {background-color: black}
+
+
+#Actu{
+   text-align: center;
+   margin-top: 50px;
+   padding-bottom: 50px;
+
+       
+}
+
+iframe{
+    width: 950px;
+    height: 500px;
+}
+
+@media screen and (max-width :480px){
+    
+    article{margin: auto; }
+    iframe{width: auto; margin: auto;}
+    #teammap{width: auto; margin: auto;}
+    
+}

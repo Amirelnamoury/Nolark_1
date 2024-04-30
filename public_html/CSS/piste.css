@@ -1,0 +1,225 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 2 nov. 2023, 18:22:06
+    Author     : hp789
+*/
+
+#piste{
+    display: block;
+}
+
+#piste article{
+    float: left;
+    width: 157px;
+    height: 275px;
+    margin: 10px;
+    padding: 5px;
+    border: white thin solid;
+}
+
+ #piste article:hover{
+    border: #bbb thin solid;
+}
+
+#piste p{
+    margin: 0;
+}
+
+#piste .Prix{
+    font-weight: bold;
+    color: red;
+}
+
+#piste .marque{
+    text-transform: uppercase;
+    text-align: left;
+    color: black;
+    font-family: 'Fuse';
+    font-size: xx-large;
+}
+
+#piste .modele{
+    text-transform: capitalize;
+    color: black;
+    
+}
+
+#piste .stockok{
+    float: right;
+    text-transform: uppercase;
+    padding: 2px;
+    top: 10px;
+    right: 10px;
+    background-color: chartreuse;
+}
+
+#piste .stockko{
+    float: right;
+    text-transform: uppercase;
+    padding: 2px;
+    top: 10px;
+    right: 10px;
+    background-color: red; 
+}
+
+[data-tip]{
+    position: relative;
+    cursor: help;
+}
+
+[data-tip]:hover:after{
+    text-transform: none;
+    content: attr(data-tip);
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    white-space: nowrap;
+    padding: 5px 10px;
+    background: fuchsia;
+    color: #fff;
+}
+
+#piste .classement{
+    margin: 10px auto 0 36px;
+    background: scroll transparent url(Images/etoiles.gif) no-repeat;
+    width: 164px;
+    height: 18px;
+}
+
+#piste .classement.classement05{
+    background-position: 0 -180px;
+}
+
+#piste .classement.classement10{
+    background-position: 0 -180px;
+}
+
+#piste .classement.classement15{
+    background-position: 0 -70px;
+}
+
+#piste .classement.classement20{
+    background-position: 0 -32px;
+}
+
+#piste .classement.classement25{
+    background-position: 0 -16px;
+}
+
+#piste .classement.classement30{
+    background-position: 0 -49px;
+}
+
+#piste .classement.classement35{
+    background-position: 0 -68px;
+}
+
+#piste .classement.classement40{
+    background-position: 0 -110px;
+}
+
+#piste .classement.classement45{
+    background-position: 0 -180px;
+}
+
+#piste .classement.classement50{
+    background-position: 0 -180px;
+}
+
+#piste .classement.classement55{
+    background-position: 0 -32px;
+}
+
+#piste .classement.classement60{
+    background-position: 0 -16px;
+}
+
+#piste .classement.classement65{
+    background-position: 0 -70px;
+}
+
+#piste .classement.classement70{
+    background-position: 0 -180px;
+}
+
+#piste .classement.classement75{
+    background-position: 0 -32px;
+}
+
+#piste .classement.classement80{
+    background-position: 0 -180px;
+}
+
+#piste .classement.classement90{
+    background-position: 0 -70px;
+}
+
+#piste .classement.classement95{
+    background-position: 0 -32px;
+}
+
+#piste .classement.classement100{
+    background-position: 0 -16px;
+}
+
+#piste .classement.classement105{
+    background-position: 0 -16px;
+}
+
+#piste .classement.classement110{
+    background-position: 0 -70px;
+}
+
+#piste .classement.classement115{
+    background-position: 0 -32px;
+}
+
+#piste .classement.classement120{
+    background-position: 0 -180px;
+}
+
+#piste .classement.classement125{
+    background-position: 0 -180px;
+}
+
+#piste .classement.classement130{
+    background-position: 0 -68px;
+}
+
+#piste .classement.classement135{
+    background-position: 0 -88px;
+}
+
+#piste .classement.classement140{
+    background-position: 0 -128px;
+}
+
+#piste .classement.classement145{
+    background-position: 0 -180px;
+}
+
+#piste .classement.classement150{
+    background-position: 0 -180px;
+}
+
+#piste .classement.classement155{
+    background-position: 0 -180px;
+}
+
+#piste .classement.classement160{
+    background-position: 0 -180px;
+}
+
+#piste .classement.classement165{
+    background-position: 0 -180px;
+}
+
+@media screen and (max-width :480px){
+    
+    section{margin: auto; width: auto; height: auto; }
+    iframe{width: auto;}
+    
+}

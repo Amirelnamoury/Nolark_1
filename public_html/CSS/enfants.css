@@ -1,0 +1,302 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 6 nov. 2023, 16:41:59
+    Author     : hp789
+*/
+
+#enfants{
+    display: block;
+}
+
+#enfants article{
+    float: left;
+    width: 157px;
+    height: 275px;
+    margin: 10px;
+    padding: 5px;
+    border: white thin solid;
+}
+
+ #enfants article:hover{
+    border: #bbb thin solid;
+}
+
+#enfants p{
+    margin: 0;
+}
+
+#enfants .prix{
+    font-weight: bold;
+    color: red;
+}
+
+#enfants .marque{
+    text-transform: uppercase;
+    text-align: left;
+    color: black;
+    font-family: 'Fuse';
+    font-size: xx-large;
+}
+
+#enfants .modele{
+    text-transform: capitalize;
+    color: black;
+    
+}
+
+#enfants .stockok{
+    float: right;
+    text-transform: uppercase;
+    padding: 2px;
+    top: 10px;
+    right: 10px;
+    background-color: chartreuse;
+}
+
+#enfants .stockko{
+    float: right;
+    text-transform: uppercase;
+    padding: 2px;
+    top: 10px;
+    right: 10px;
+    background-color: red; 
+}
+
+[data-tip]{
+    position: relative;
+    cursor: help;
+}
+
+[data-tip]:hover:after{
+    text-transform: none;
+    content: attr(data-tip);
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    white-space: nowrap;
+    padding: 5px 10px;
+    background: fuchsia;
+    color: #fff;
+}
+
+#enfants .classement{
+    margin: 10px auto 0 36px;
+    background: scroll transparent url(Images/etoiles.gif) no-repeat;
+    width: 164px;
+    height: 18px;
+}
+
+#enfants .classement.classement05{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement10{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement15{
+    background-position: 0 -70px;
+}
+
+#enfants .classement.classement20{
+    background-position: 0 -32px;
+}
+
+#enfants .classement.classement25{
+    background-position: 0 -16px;
+}
+
+#enfants .classement.classement30{
+    background-position: 0 -49px;
+}
+
+#enfants .classement.classement35{
+    background-position: 0 -68px;
+}
+
+#enfants .classement.classement40{
+    background-position: 0 -110px;
+}
+
+#enfants .classement.classement45{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement50{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement55{
+    background-position: 0 -32px;
+}
+
+#enfants .classement.classement60{
+    background-position: 0 -16px;
+}
+
+#enfants .classement.classement65{
+    background-position: 0 -70px;
+}
+
+#enfants .classement.classement70{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement75{
+    background-position: 0 -32px;
+}
+
+#enfants .classement.classement80{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement90{
+    background-position: 0 -70px;
+}
+
+#enfants .classement.classement95{
+    background-position: 0 -32px;
+}
+
+#enfants .classement.classement100{
+    background-position: 0 -16px;
+}
+
+#enfants .classement.classement105{
+    background-position: 0 -16px;
+}
+
+#enfants .classement.classement110{
+    background-position: 0 -70px;
+}
+
+#enfants .classement.classement115{
+    background-position: 0 -32px;
+}
+
+#enfants .classement.classement120{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement125{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement130{
+    background-position: 0 -68px;
+}
+
+#enfants .classement.classement135{
+    background-position: 0 -88px;
+}
+
+#enfants .classement.classement140{
+    background-position: 0 -128px;
+}
+
+#enfants .classement.classement145{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement150{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement155{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement160{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement165{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement170{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement175{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement180{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement185{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement190{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement195{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement200{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement205{
+    background-position: 0 -180px;
+}
+
+v
+#enfants .classement.classement210{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement215{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement220{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement225{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement230{
+    background-position: 0 -180px;
+}
+#enfants .classement.classement235{
+    background-position: 0 -180px;
+}
+#enfants .classement.classement240{
+    background-position: 0 -180px;
+}
+#enfants .classement.classement245{
+    background-position: 0 -180px;
+}
+#enfants .classement.classement250{
+    background-position: 0 -180px;
+}
+#enfants .classement.classement255{
+    background-position: 0 -180px;
+}
+#enfants .classement.classement260{
+    background-position: 0 -180px;
+}
+#enfants .classement.classement265{
+    background-position: 0 -180px;
+}
+
+#enfants .classement.classement270{
+    background-position: 0 -180px;
+}
+
+@media screen and (max-width :480px){
+    
+    section{margin: auto; width: auto; height: auto; }
+    
+}

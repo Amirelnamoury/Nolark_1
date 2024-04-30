@@ -1,0 +1,75 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 9 nov. 2023, 10:05:15
+    Author     : hp789
+*/
+
+form{
+    
+    display: flex;
+
+    margin: 150px 450px 150px 450px;
+   
+    
+    
+}
+
+
+
+
+
+#div-1{
+    
+    text-align: right;
+    
+}
+#div-2{
+    
+    text-align: left;
+    margin-left: 40px;
+   
+    
+}
+
+#motif{
+    width: 330px;
+    height: 550px;
+   
+    
+}
+
+#Autre{
+   height: 200px;
+   width: auto;
+   margin: auto;
+}
+
+input[type = "email"]:valid{
+    color: green;
+}
+
+input[type = "email"]:invalid{
+    color: red;
+}
+
+#valid{
+    height: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    
+}
+
+input:valid + #valid{
+    opacity: 1;
+}
+@media screen and (max-width :480px){
+    
+    form{width: auto; margin-left: 0; display: block; }
+    button{width: 360px; margin: 1px;}
+   #div-2{margin: 2px;}
+    
+}
+

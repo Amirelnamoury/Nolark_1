@@ -1,0 +1,133 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 6 nov. 2023, 10:48:50
+    Author     : hp789
+*/
+#cross{
+    display: block;
+}
+
+#cross article{
+    float: left;
+    width: 157px;
+    height: 275px;
+    margin: 10px;
+    padding: 5px;
+    border: white thin solid;
+}
+
+ #cross article:hover{
+    border: #bbb thin solid;
+}
+
+#cross p{
+    margin: 0;
+}
+
+#cross .prix{
+    font-weight: bold;
+    color: red;
+}
+
+#cross .marque{
+    text-transform: uppercase;
+    text-align: left;
+    color: black;
+    font-family: 'Fuse';
+    font-size: xx-large;
+}
+
+#cross .modele{
+    text-transform: capitalize;
+    color: black;
+    
+}
+
+#cross .stockok{
+    float: right;
+    text-transform: uppercase;
+    padding: 2px;
+    top: 10px;
+    right: 10px;
+    background-color: chartreuse;
+}
+
+#cross .stockko{
+    float: right;
+    text-transform: uppercase;
+    padding: 2px;
+    top: 10px;
+    right: 10px;
+    background-color: red; 
+}
+
+[data-tip]{
+    position: relative;
+    cursor: help;
+}
+
+[data-tip]:hover:after{
+    text-transform: none;
+    content: attr(data-tip);
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    white-space: nowrap;
+    padding: 5px 10px;
+    background: fuchsia;
+    color: #fff;
+}
+
+#cross .classement{
+    margin: 10px auto 0 36px;
+    background: scroll transparent url(Images/etoiles.gif) no-repeat;
+    width: 164px;
+    height: 18px;
+}
+
+#cross .classement.classement05{
+    background-position: 0 -180px;
+}
+
+#cross .classement.classement10{
+    background-position: 0 -180px;
+}
+
+#cross .classement.classement15{
+    background-position: 0 -70px;
+}
+
+#cross .classement.classement20{
+    background-position: 0 -32px;
+}
+
+#cross .classement.classement25{
+    background-position: 0 -16px;
+}
+
+#cross .classement.classement30{
+    background-position: 0 -49px;
+}
+
+#cross .classement.classement35{
+    background-position: 0 -68px;
+}
+
+#cross .classement.classement40{
+    background-position: 0 -110px;
+}
+
+#cross .classement.classement45{
+    background-position: 0 -180px;
+}
+
+
+@media screen and (max-width :480px){
+    
+    section{margin: auto; width: auto; height: auto; }
+    #video{display:none;}
+    
+}
